@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:background="@drawable/piccard"
+    tools:context=".splash">
+
+<!--    <ImageView-->
+<!--        android:id="@+id/pic1"-->
+<!--        android:layout_width="236dp"-->
+<!--        android:layout_height="222dp"-->
+<!--        android:layout_alignParentStart="true"-->
+<!--        android:layout_alignParentTop="true"-->
+<!--        android:layout_alignParentEnd="true"-->
+<!--        android:layout_alignParentBottom="true"-->
+<!--        android:layout_marginStart="102dp"-->
+<!--        android:layout_marginLeft="20dp"-->
+<!--        android:layout_marginTop="135dp"-->
+<!--        android:layout_marginEnd="73dp"-->
+<!--        android:layout_marginRight="20dp"-->
+<!--        android:layout_marginBottom="374dp"-->
+<!--        android:src="@drawable/piccard"-->
+<!--        app:layout_constraintBottom_toBottomOf="parent"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintStart_toStartOf="parent"-->
+<!--        app:layout_constraintTop_toTopOf="parent"-->
+<!--        app:layout_constraintVertical_bias="0.197" />-->
+
+    <TextView
+        android:id="@+id/text"
+        android:layout_width="158dp"
+        android:layout_height="89dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginBottom="540dp"
+        android:text="Card"
+        android:typeface="sans"
+        android:textColor="@color/white"
+        android:textSize="60sp" />
+
+    <TextView
+        android:id="@+id/ttt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="121dp"
+        android:layout_marginTop="527dp"
+        android:layout_marginBottom="124dp"
+        android:text="Shuffle"
+    android:typeface="sans"
+        android:textColor="@color/white"
+        android:textSize="60sp" />
+
+</RelativeLayout>
